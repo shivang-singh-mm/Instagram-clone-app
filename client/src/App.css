@@ -1,0 +1,35 @@
+a{
+  color: black !important;
+}
+
+.auth-card{
+  padding: 30px;
+  max-width: 500px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgba(98, 98, 239, 0.502) !important;
+  box-shadow: 0 1px 0 0 rgba(98, 98, 239, 0.502) !important;
+}
+
+.item{
+  max-width: 30%;
+  margin: 14px auto;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home-card{
+  width: 500px;
+  height: max-content;
+  margin: 26px auto;
+}
+.home{
+  margin: 26px auto;
+}

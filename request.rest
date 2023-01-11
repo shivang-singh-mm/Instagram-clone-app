@@ -1,0 +1,42 @@
+GET http://localhost:6000/signup
+
+###
+
+POST http://localhost:6000/signup
+Content-type: application/json
+
+{
+    "email": "sin@sin",
+    "password": "you"
+}
+
+###
+
+POST http://localhost:6000/login
+Content-type: application/json
+
+{
+    "email": "shi@shi",
+    "password": "me"
+}
+
+###
+
+POST http://localhost:6000/createpost
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmY2Mjc4Y2M2MDJmZTc0NzAwNjgwYTAiLCJpYXQiOjE2NjAyOTkxOTJ9.rVYvmcyom8O_vl1Gl3QYmJ3HPAm8s9AKnhhLx9X_AoA
+
+{
+    "title": "shi post 2",
+    "body": "post 2"
+}
+
+###
+
+GET http://localhost:6000/allposts
+
+
+###
+
+GET http://localhost:6000/mypost
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmY2Mjc4Y2M2MDJmZTc0NzAwNjgwYTAiLCJpYXQiOjE2NjAyOTk0MDB9.dnXEXw1j7XdfZ2Aypyfsuk7a7BEuTG9YH7_Qzzc7slw
